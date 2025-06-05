@@ -82,3 +82,19 @@ elif x != 2:
 else:
     print("!!!")
 
+#
+#loop
+#
+#while or for
+while True:
+    print("hi")
+    break # durdurmak için
+x = [ "femboy" , "banana" , "hmm"]
+for y in x:
+    print(x)
+for y in x:
+    if y == hmm:
+        print(y)
+        break # döngüyü kapatmak yoketmek için.
+
+
