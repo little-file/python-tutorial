@@ -38,7 +38,47 @@ print(x , y , z)
 # Global Variables
 x = 1 # her yede x = 1 olcak eğer başka bir yerde x = 2 yazmas isem 
 # bir def'in içinde yaparasak diğer def'lerde çalışmaz bundan dolayı def'lerde aşağıdaki gibi yapmalıyız
-def globalx():
+def hmm():
     global x 
     x = 1
-globalx()
+hmm()
+
+#
+#Date types
+#
+#
+# yazı tipine str
+# sayılarara int(1,2,3,4), float(1.5,1.8,2.9), complex(karmaşık sayılar[lisede görmüş olmanız gerekiyor zaten])
+# sıralama tipleri list, tuple, range
+# haritalama tipleri dict
+# set tipleri set, frozenset
+# Boolean tipi bool
+# Binary Tipi bytes, bytearray, memoryview
+# yok(hiç) tipi NoneType
+
+# bir tipi öğrnemek
+x = 1
+y = 1.5
+z = 1j
+print(type(x))
+print(type(y))
+print(type(z))
+# tipini önden söylemek
+x = str(1)
+print(type(x))
+x = int(1)
+print(type(x))
+
+#
+#Conditionals
+#
+#if , elif and else
+# hepsi eğer demek if başlangıcataki eğer bundan sonraki eğerler için elif veya else olmalı elif if ile aynı sadece ondan sonra olmak zorunda else ise if ve elif deki eğerler bittikden sonrası için voide düşmemek amacıyla kullanılır
+x = 1
+if x:
+    print("yep")
+elif x != 2:
+    print("hmm")
+else:
+    print("!!!")
+
